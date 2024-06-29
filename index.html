@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo List</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Todo List</h1>
+		<button id="toggle-theme">Toggle Theme</button>
+	</header>
+	<main>
+		<input type="text" id="todo-input" placeholder="Add New Task..." >
+		<br>
+		<button id="add-btn">Add</button>
+<br>
+		<div class="select">
+			<select name="todos" class="filter-todo " style="color:black;">
+	<option value="all" style="color:rgb(162, 27, 27);">All</option>
+	<option value="completed" style="color:rgb(183, 28, 28);">Completed</option>
+	<option value="incomplete" style="color:rgb(171, 20, 20);">Incomplete</option>
+  </select>
+		</div>
+		<ul id="todo-list"></ul>
+		     <div id="stats">
+			<p id="todo-count">0 Total count</p>
+            <br>
+			<p id="done-count">10 Total count</p>
+		    </div>
+            </main>
+<br>
+<br>
+
+
+	<script src="script.js"></script>
+
+</body>
+</html>

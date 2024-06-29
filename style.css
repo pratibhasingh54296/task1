@@ -1,0 +1,105 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #aa3d13;
+	transition: background-color 0.5s;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+header button {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+header button:hover {
+	background-color: #3e8e41;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+#todo-input {
+	width: 50%;
+	padding: 10px;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+}
+
+#add-btn {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#add-btn:hover {
+	background-color: #3e8e41;
+}
+
+#todo-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#todo-list li {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+#todo-list li:last-child {
+	border-bottom: none;
+}
+
+.done {
+	text-decoration: line-through;
+	color: #ccc;
+}
+
+#stats {
+	margin-top: 20px;
+}
+
+#stats p {
+	margin: 0;
+}
+
+.dark-theme {
+	background-color: #333;
+	color: #fff;
+}
+
+.dark-theme #todo-input {
+	background-color: #444;
+	color: #fff;
+}
+
+.dark-theme #add-btn {
+	background-color: #666;
+	color: #fff;
+}
+
+.dark-theme #todo-list li {
+	background-color: #444;
+	color: #fff;
+}
+
+.dark-theme #stats {
+	color: #fff;
+}
